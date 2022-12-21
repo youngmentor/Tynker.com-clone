@@ -23,11 +23,17 @@
   }
   .Nav_links {
     display: flex;
+    padding: 5px;
     align-items: center;
     justify-content: space-around;
     width: 70%;
   }
   .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
     text-decoration: none;
     color: inherit;
   }
@@ -36,7 +42,6 @@
     align-items: center;
     justify-content: center;
     width: auto;
-    border: 1px solid #f8f8f8;
     padding: 5px;
     border-radius: 3px;
     background-color: #567abe;

@@ -5,12 +5,10 @@ const Play = () => {
     display: 'flex',
     alignItem: 'center',
     justifyContent: 'center',
-    width: '100%',
-    height:'100vh'
 }
   return (
     <div style={style}>
-       <h1>this is a play station feel free to play around</h1> 
+       <p>this is a play station feel free to play around</p> 
     </div>
   )
 }

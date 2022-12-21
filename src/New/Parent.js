@@ -9,7 +9,7 @@ const Parent = () => {
     height:'100vh'
 }
   return (
-    <div style={style}> <h1>THIS IS MY PARENTS PAGE</h1></div>
+    <div style={style}> <p> THIS IS MY Parent PAGE</p></div>
   )
 }
 

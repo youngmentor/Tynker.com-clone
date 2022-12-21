@@ -149,6 +149,7 @@ const Body6 = () => {
                     </div>
                 </div>
                 <hr />
+                <div className='footer-wrap'>
                 <div className='footer_wrap_bottom'>
                     <img src={TynkerSmall} />
                     <p>© 2022 Neuron Fuel</p>
@@ -157,6 +158,7 @@ const Body6 = () => {
                     <p>Kids Online Safety</p>
                     <p>About Us</p>
                     <p>Contact Us</p>
+                </div>
                 </div>
 
             </div>

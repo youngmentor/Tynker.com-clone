@@ -11,7 +11,7 @@ const Gift = () => {
 
   return (
     <div style={style}>
-      <h1>  THIS IS MY GIFT PAGE</h1>
+      <p>  THIS IS MY GIFT PAGE</p>
     </div>
   )
 }

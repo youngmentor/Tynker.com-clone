@@ -1,5 +1,5 @@
-// import Header from '../Header/Header'
-// import { useState } from 'react'
+import Header from '../Header/Header'
+import { useState } from 'react'
 import './Home.css'
 import Body1 from './Body1/Body1'
 import Body2 from './Body2/Body2'

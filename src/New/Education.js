@@ -5,12 +5,12 @@ const Education = () => {
     display: 'flex',
     alignItem: 'center',
     justifyContent: 'center',
-    width: '100%',
-    height:'100vh'
+    // width: '100%',
+    // height:'100vh'
 }
   return (
     <div style={style}>
-      <h1>EDUCATION IS STILL THE BEST LEGACY, THE THE QUESTION IS WHAT ARE YOU LEARNING</h1>
+      <p>EDUCATION IS STILL THE BEST LEGACY, THE THE QUESTION IS WHAT ARE YOU LEARNING</p>
        </div>
   )
 }

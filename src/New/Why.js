@@ -10,7 +10,7 @@ const Why = () => {
 }
   return (
     <div  style={style}>
-        THIS IS MY WHY PAGE
+       <p> THIS IS MY WHY PAGE</p>
     </div>
   )
 }
