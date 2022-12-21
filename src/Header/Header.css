@@ -1,0 +1,99 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1751a6;
+    width: 100%;
+  }
+  
+  .Child_Header {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+  }
+  .Nav_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+  }
+  .link{
+    text-decoration: none;
+    color: inherit;
+  }
+  .link:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    border: 1px solid #f8f8f8;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #567abe;
+  }
+  .action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 19%;
+  }
+  .Join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    border: 1px solid #f8f8f8;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  .Join:hover {
+    background-color: #82ca6d;
+    border: none;
+  }
+  .Login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  .Login:hover {
+    background-color: #82ca6d;
+  }
+  .img1 {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    .Nav_links {
+      display: none;
+    }
+    .action {
+      display: none;
+    }
+    .Child_Header {
+      width: 100%;
+    }
+    .img {
+      display: none;
+    }
+    .img1 {
+      display: flex;
+    }
+    .burger {
+      display: flex;
+    }
+  }

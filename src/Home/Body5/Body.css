@@ -1,0 +1,133 @@
+.Component5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #eefbfd;
+    margin-top: 100px;
+    background-image: url(bg-squiggle-top.svg);
+    background-position: top -10px left 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 10rem;
+    padding-top: 8rem ;
+    padding-bottom: 8rem !;
+  }
+  .Component5_wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .Component5_top {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Component5_top p {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  
+  .Component5_Card_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .Comp5_card {
+    box-sizing: border-box;
+    background-color: white;
+    width: 350px;
+    min-height: 300px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+    border-radius: 5px;
+  }
+  .Comp5_card_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 75%;
+    width: 80%;
+    font-size: 18px;
+  }
+  .Comp5_card_wrap h2 {
+    margin-bottom: -5px;
+    font-size: 20px;
+    color: #3797aa;
+  }
+  .Component5_text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .Component5_text_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Component5_Image_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .Component5_Image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  .Component5_Image img {
+    width: 170px;
+  }
+  @media screen and (max-width: 768px) {
+    .Component5_top {
+      width: 95%;
+      font-size: 20px;
+    }
+    .Component5_top h1 {
+      width: 95%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .Component5_Card_wrap {
+      width: 99%;
+      gap: 15px;
+    }
+    .Comp5_card {
+      background-color: white;
+      width: 359px;
+      min-height: 260px;
+    }
+    .Comp5_card_wrap {
+      display: flex;
+      min-height: 75%;
+      font-size: 20px;
+    }
+    .Component5_text {
+      font-size: 18px;
+    }
+    .Component5_Image {
+      width: 100%;
+    }
+    .Component5_Image img {
+      width: 125px;
+    }
+  }

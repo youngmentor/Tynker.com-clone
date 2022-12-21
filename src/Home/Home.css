@@ -1,0 +1,70 @@
+.Menu {
+    width: 210%;
+    height: 100vh;
+    background-color: rgb(253, 230, 230);
+    margin-top: -70px;
+  }
+  .menu_lap {
+    position: absolute;
+    height: 200vh;
+    width: 559px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(0.1px);
+    /* background-color: red; */
+    z-index: 100000;
+  }
+  .Head2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9c0500;
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-image: url(holiday-red-banner@2x.webp);
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0.1px 7px rgb(36, 35, 35);
+    font-size: 15px;
+  }
+  .h2_wrap {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+  }
+  .h2_wrap h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Roboto Slab, Open Sans, Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .Body_Contain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5px;
+  }
+  @media screen and (max-width: 768px) {
+    .Body_Wrap {
+      display: flex;
+      align-items: right;
+      gap: 110px;
+      width: auto;
+    }
+    .h2_wrap h2 {
+      font-size: 20px;
+    }
+  }
+  .Main_Body {
+    width: 100%;
+  }

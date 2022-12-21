@@ -1,0 +1,130 @@
+.Component4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Component4_wrap {
+  width: 90%;
+  background-color: white;
+}
+.Component4_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 70px;
+}
+.Component4_top button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  border: none;
+  background-color: #f48c35;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+}
+.Component4_top h1 {
+  font-size: clamp(2rem, 1rem+ 10vw, 7rem);
+}
+.Component4_bottom {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.Component4_bottom img {
+  width: 50%;
+  height: 50%;
+}
+.Comp_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}
+.Comp4 {
+  display: flex;
+  gap: 25px;
+  width: 80%;
+  height: 100%;
+  /* background-color: grey; */
+  margin-left: 100px;
+}
+.Comp4_Text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Comp4 img {
+  display: flex;
+  width: 15%;
+}
+.Comp4_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+.icons_wrap {
+  display: flex;
+  gap: 22px;
+}
+.icons {
+  color: #f0ca31;
+}
+@media screen and (max-width: 768px) {
+  .Component4_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    /* background-color: red; */
+  }
+  .Component4_bottom img {
+    width: 90%;
+    height: 60%;
+  }
+  .Comp_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 30px;
+    /* background-color: grey; */
+  }
+  .Comp4 {
+    flex-wrap: wrap;
+    width: 90%;
+    /* background-color: red; */
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .Comp4 img {
+    display: flex;
+    width: 10%;
+  }
+  .Comp4_Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .Comp4_icons {
+    display: flex;
+    align-items: left;
+    width: 100%;
+  }
+  .icons_wrap {
+    display: flex;
+    gap: 50px;
+  }
+}

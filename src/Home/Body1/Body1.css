@@ -1,0 +1,148 @@
+.Body1 {
+    width: 100%;
+    height: 30vh;
+    margin-top: 7px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    background-color: #5b96e0;
+    background-image: url(swoosh-lower-condensed-white-reversed.svg),
+      url(image.webp), url(hero-background.webp);
+    background-position: bottom -2px right, bottom -14rem left 70%, 50%;
+    background-size: 101% auto, 72rem, cover;
+    padding-top: 15rem;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  
+  .Body1_text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 30px;
+    width: 90%;
+    height: auto;
+    margin-top: -220px;
+    font-size: 20px;
+  }
+  .Body1_text p {
+    width: 50%;
+  }
+  .Body1_button {
+    display: flex;
+    align-items: center;
+  
+    gap: 20px;
+  }
+  .Body1_button button {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 11px;
+    background-color: #f48c35;
+    color: white;
+  }
+  .Body1_button p {
+    display: flex;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .Play_button {
+    width: 75px;
+    height: 75px;
+    background-color: #f48c35;
+    border-radius: 50px;
+    position: absolute;
+  
+    bottom: 9rem;
+    left: 62%;
+  }
+  @media screen and (max-width: 768px) {
+    .Body1 {
+      width: 100%;
+      height: 45vh;
+      display: flex;
+      justify-content: center;
+      background-image: url(swoosh-lower-condensed-white-reversed.svg),
+        url(image.webp),
+        linear-gradient(180deg, #144897 -4rem, transparent 10rem),
+        url(hero-background.webp);
+      background-position: bottom -2px right, bottom -5rem right, top, 50%;
+      background-size: 101% auto, 30rem, auto, cover;
+    }
+    .Play_button {
+      position: absolute;
+      top: 540px;
+      left: 500px;
+    }
+  
+    .Body1_text {
+      width: 90%;
+      height: 200px;
+      font-size: 23px;
+      gap: 5px;
+    }
+    .Body1_text p {
+      width: 100%;
+    }
+    .Body1_button {
+      width: 450px;
+    }
+    .Body1_button botton {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+      padding: 11px;
+      width: 200px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .Body1 {
+      width: 100%;
+      min-height: 50vh;
+      display: flex;
+      justify-content: center;
+      background-image: url(swoosh-lower-condensed-white-reversed.svg),
+        url(image.webp),
+        linear-gradient(180deg, #144897 -4rem, transparent 10rem),
+        url(hero-background.webp);
+      background-position: bottom -2px right, bottom -5rem right, top, 50%;
+      background-size: 101% auto, 30rem, auto, cover;
+    }
+    .Play_button {
+      position: absolute;
+      top: 595px;
+      left: 180px;
+      width: 50px;
+      height: 50px;
+    }
+  
+    .Body1_text {
+      width: 90%;
+      height: 200px;
+      font-size: 18px;
+    }
+  
+    .Body1_button {
+      width: 350px;
+    }
+    .Body1_button botton {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+      padding: 11px;
+      width: 150px;
+    }
+    .Body1_text p {
+      width: 100%;
+    }
+  }
